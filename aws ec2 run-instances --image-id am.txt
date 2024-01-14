@@ -1,3 +1,5 @@
+to create an ec2 instance using cli:
+
 aws ec2 run-instances --image-id ami-0c7217cdde317cfec --count 3 --instance-type t2.micro --key-name testnew121 --security-group-ids sg-04f0a38d1812e1370 --subnet-id subnet-05a2eb7823f40f470
 
 aws ec2 describe-instances --filters "Name=tag:Name,Values=Sourav121"
